@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Success</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<h1>You have been logged in</h1>
+
+<p th:text="'Name: ' + ${user.username}"></p>
+<a href="/homepage">Home Page</a>
+
+</body>
+</html>
